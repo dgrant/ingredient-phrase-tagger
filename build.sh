@@ -19,7 +19,6 @@ coverage report
 yapf \
   --diff \
   --recursive \
-  --style google \
   ./ \
   --exclude="third_party/*" \
   --exclude="build/*"
