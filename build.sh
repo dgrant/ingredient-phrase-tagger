@@ -20,9 +20,7 @@ yapf \
   --diff \
   --recursive \
   --style google \
-  ./ \
-  --exclude="third_party/*" \
-  --exclude="build/*"
+  ./
 
 # Run static analysis for Python bugs/cruft.
 pyflakes bin/ ingredient_phrase_tagger/
