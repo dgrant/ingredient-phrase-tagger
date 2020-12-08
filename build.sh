@@ -19,7 +19,6 @@ coverage report
 yapf \
   --diff \
   --recursive \
-  --style google \
   ./
 
 # Run static analysis for Python bugs/cruft.
